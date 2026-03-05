@@ -1,0 +1,81 @@
+/* style.css */
+/* RESET GERAL */
+* {
+    margin: 0; /* remove the standard margin */
+    padding: 0; /* remove the standard padding */
+    box-sizing: border-box; /* include padding and border into width/height */
+    scroll-behavior: smooth; /* enables a smooth scrolling when clicking a link  */
+}
+
+/* STYLE TO BODY */
+body {
+      font-family: Arial, sans-serif; /* sets the main font */
+      color: #222; /* text default color */
+      background-color: #eef1ef; /* slightly grayish background */
+}
+
+/* STYLE TO HEADER */
+header {
+    position: hover; /* fix the menu at the top */
+    width: 100%; /* occupies the entire width */
+    top: 0; /* slope at the top */
+    background: #ffffff; /* sets the background color */
+    padding: 25px; /* internal spacing */
+    display: flex; /* enables flexbox */
+    justify-content: space-between; /* space logo and menu */
+    align-items: center; /* centralize vertically */
+    z-index: 1000; /* place above the other elements */
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif; /* defines the default font */
+    font-size: 22px; /* defines the font size */
+    color: #9c7a1c;  /* sets the color */
+}
+
+nav a {
+    margin-left: 20px; /* space between links */
+    text-decoration: none; /* remove underline */
+    color: #9c7a1c; /* start color */
+    font-weight: 500; /* font weight */
+    transition: 0.3s; /* smooth animation in hover */
+}
+
+nav a:hover {
+    color: #000000; /* white color when passing the link */
+}
+
+section {
+    padding: 50px 3%; /* internal spacing */
+}
+
+#values {
+    background: #9c7a1c;
+}
+
+#values h2 {
+    text-align: center;
+}
+
+#initial{
+    background: #ffffff;
+}
+
+#services{
+}
+
+#pricetable{
+    background: #ffffff;
+}
+
+#music{
+    background: #b3bd94;
+}
+
+#contact{
+    background: #9c7a1c
+}
+
+#cfooter{
+    background: #ffffff;
+}

@@ -17,7 +17,7 @@ body {
 
 /* STYLE TO HEADER */
 header {
-    position: hover; /* fix the menu at the top */
+    position: fixed; /* fix the menu at the top */
     width: 100%; /* occupies the entire width */
     top: 0; /* slope at the top */
     background: #ffffff; /* sets the background color */
@@ -34,6 +34,18 @@ header h1 {
     color: #9c7a1c;  /* sets the color */
 }
 
+#bMessage {
+    background-color: white; /* sets the background to white. */
+    border: 2px solid #333; /* it created a dark, solid border with 2 pixels */
+    color: #333; /* dark color for the text.o */
+    padding: 10px 20px; /* internal space for text */
+    border-radius: 8px; /* rounds the edge of the button */
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer; /* changes the cursor to one hand when you hover the mouse */
+}
+
 nav a {
     margin-left: 20px; /* space between links */
     text-decoration: none; /* remove underline */
@@ -43,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #000000; /* white color when passing the link */
+    color: #ddd; /* white color when passing the link */
 }
 
 a: link{

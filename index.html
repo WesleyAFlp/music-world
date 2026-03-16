@@ -14,13 +14,13 @@
 </head>
 
 		<!-- Cabeçalho do projeto -->
-<header>
+	headerMessage<header>
 	<h1> MUSIC WORLD </h1>
-	<p> APROVEITE O MUNDO COM MÚSICA </p>
-	<nav>
-		<a href="#initial">Início</a>
-		<a href="#services">Serviços</a>
-		<a href="#cfooter">Contato</a>
+	<p id="headerMessage">APROVEITE O MUNDO COM MÚSICA</p>
+	<nav id="menu">
+		<a href="#initial" id="menuInitial">Início</a>
+		<a href="#services" id="menuServices">Serviços</a>
+		<a href="#cfooter" id="menuContact">Contato</a>
 	</nav>
 </header>
 <body>
@@ -44,6 +44,8 @@
 				<a href="https://cefsa.org.br/crescendojuntos/a-importancia-da-musica-na-vida-das-pessoas/" target="_blank"> Importância da música </a>
 				<br><br>
 				<button id="bMessage">Clique para ver uma mensagem</button>
+				<button id="bNewMessage">Clique para mudar a mensagem</button>
+				<button id="bNewSectionColor">Mude a cor dessa seção</button>
 				<br><br>
 		</section>
 
@@ -53,6 +55,8 @@
 				<p>
 					Somos uma produtora musical focada em criar músicas que proporcionem calma e um sentimento de relaxamento para os nosso ouvintes!
 					Levamos conosco uma verdade: a vida fica melhor com música.
+				</p>
+				<p>
 					Ouvir música pode provocar mudanças no seu humor: alegria, tristeza, relaxamento, confiança, amor, tédio e outros sentimentos,
 					mas também pode te levar a sentir sono.
 				</p>
@@ -64,7 +68,8 @@
 				<article>
 					Nossa missão é tornar o dia de nossos ouvintes mais leves e ajudar novos músicos a desenvolver seus projetos musicais.
 				</article>
-				<img src="C:\xampp\htdocs\projeto_music_world\imagens" alt="MUSIC WORLD">
+				<img id="logo" width="704px" height="384px" src="/imagens/Gemini_Generated_Image_s3qd1ds3qd1ds3qd.png" alt="MUSIC WORLD">
+
 
 		</section>
 
@@ -79,10 +84,12 @@
 					</ol>
 				</nav>
 		</section>
-		<section id="pricetable">
+		<section id="priceTable">
 				<br>
 				<h2>Tabela de preços</h2>
-				<table>
+				<button id="bShowElement">Clique para mostrar/ocultar tabela</button>
+				<br><br>
+				<table id="table">
 						<thead>
 						<tr>
 							<th>           </th>

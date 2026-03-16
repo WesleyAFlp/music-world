@@ -46,6 +46,28 @@ header h1 {
     cursor: pointer; /* changes the cursor to one hand when you hover the mouse */
 }
 
+#bNewMessage {
+    background-color: white; /* sets the background to white. */
+    border: 2px solid #333; /* it created a dark, solid border with 2 pixels */
+    color: #333; /* dark color for the text.o */
+    padding: 10px 20px; /* internal space for text */
+    border-radius: 8px; /* rounds the edge of the button */
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer; /* changes the cursor to one hand when you hover the mouse */
+}
+
+#bNewSectionColor {
+    background-color: white; /* sets the background to white. */
+    border: 2px solid #333; /* it created a dark, solid border with 2 pixels */
+    color: #333; /* dark color for the text.o */
+    padding: 10px 20px; /* internal space for text */
+    border-radius: 8px; /* rounds the edge of the button */
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer; /* changes the cursor to one hand when you hover the mouse */
+}
+
 nav a {
     margin-left: 20px; /* space between links */
     text-decoration: none; /* remove underline */
@@ -91,6 +113,17 @@ section {
 
 #pricetable{
     background: #ffffff;
+}
+
+#bShowElement {
+    background-color: white; /* sets the background to white. */
+    border: 2px solid #333; /* it created a dark, solid border with 2 pixels */
+    color: #333; /* dark color for the text.o */
+    padding: 10px 20px; /* internal space for text */
+    border-radius: 8px; /* rounds the edge of the button */
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer; /* changes the cursor to one hand when you hover the mouse */
 }
 
 #music{

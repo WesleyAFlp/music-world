@@ -20,7 +20,7 @@
 	<nav id="menu">
 		<a href="#initial" id="menuInitial">Início</a>
 		<a href="#services" id="menuServices">Serviços</a>
-		<a href="#cfooter" id="menuContact">Contato</a>
+		<a href="#cFooter" id="menuContact">Contato</a>
 	</nav>
 </header>
 <body>
@@ -130,28 +130,39 @@
 		<section id="contact">
 				<br>
 				<h2> Formulário de contato </h2>
-				<h3> Preencha os campos para contato </h3>
-				<form>
-						<label for="cname"> Nome: </label><br>
-						<input type="text" id="cname" name="cname"><br>
-						<label for="femail"> E-mail: </label><br>
-						<input type="email" id="femail" name="femail"><br>
-						<label for="pnumber"> Telefone: </label><br>
-						<input type="tel" id="pnumber" name="pnumber"><br>
-						<label for="cmessage"> O que você deseja: </label><br>
-						<input type="textarea" id="cmessage" name="cmessage"><br>
+				<h3> Preencha os campos para cadastrar-se </h3>
+				<form id="registrationForm">
+						<label for="cName"> Nome: </label><br>
+						<input type="text" id="cName" name="cName"><br>
+						<label for="cEmail"> E-mail: </label><br>
+						<input type="email" id="cEmail" name="cEmail"><br>
+						<label for="cPassword"> Senha: </label><br>
+						<input type="password" id="cPassword" name="cPassword"><br>
+						<label for="genero"> Gênero </label><br>
+
+						<label for="pNumber"> Telefone: </label><br>
+						<input type="tel" id="pNumber" name="pNumber"><br>
+						<label for="cidades"> Cidade </label><br>
+						<select id="cidades">
+							<option value="1"> Belo Horizonte </option>
+							<option value="2"> Contagem </option>
+							<option value="3"> Sabará </option>
+							<option value="4"> Betim </option>
+							<option value="5"> Lagoa Santa </option>
+						</select><br>
+						<label for="cMessage"> O que você deseja realizar conosco? </label><br>
+						<input type="textarea" id="cMessage" name="cMessage" rows="5" cols="15"><br>
 				</form>
 				<br>
-				<button> Enviar </button>
+				<button onclick="send"> Enviar </button>
 		</section>
 	</main>
     <script src="script.js"></script>
 </body>
-<footer id="cfooter">
+<footer id="cFooter">
 	<h3>DADOS PARA CONTATO</h3>
 	<p>TELEFONE: (31) 98983-4081 | E-MAIL: musicproducer@musicaworld.com.br  |  ENDEREÇO: RUA BRASIL 777</p>
 	<p>© 2026 MUSIC WORLD. Todos os direitos reservados. Este conteúdo é protegido pela Lei nº 9.610/98
-		(Lei de Direitos Autorais), sendo vedada a reprodução, distribuição ou comercialização, total ou parcial, sem a prévia
-		autorização expressa do autor.
+		(Lei de Direitos Autorais).
 	</p>
 </footer>

@@ -1,0 +1,143 @@
+/* style.css */
+/* RESET GERAL */
+* {
+    margin: 0; /* remove the standard margin */
+    padding: 0; /* remove the standard padding */
+    box-sizing: border-box; /* include padding and border into width/height */
+    scroll-behavior: smooth; /* enables a smooth scrolling when clicking a link  */
+}
+
+/* STYLE TO BODY */
+body {
+      font-family: Arial, sans-serif; /* sets the main font */
+      line-height: 1.3; /* increases the height between lines */
+      background-color: #eef1ef; /* slightly grayish background */
+      color: #222; /* text default color */
+}
+
+/* STYLE TO HEADER */
+header {
+    position: fixed; /* fix the menu at the top */
+    width: 100%; /* occupies the entire width */
+    top: 0; /* slope at the top */
+    background: #ffffff; /* sets the background color */
+    padding: 22px; /* internal spacing */
+    display: flex; /* enables flexbox */
+    justify-content: space-between; /* space logo and menu */
+    align-items: center; /* centralize vertically */
+    z-index: 1000; /* place above the other elements */
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif; /* defines the default font */
+    font-size: 22px; /* defines the font size */
+    color: #9c7a1c;  /* sets the color */
+}
+
+#bMessage {
+    background-color: white; /* sets the background to white. */
+    border: 2px solid #333; /* it created a dark, solid border with 2 pixels */
+    color: #333; /* dark color for the text.o */
+    padding: 10px 20px; /* internal space for text */
+    border-radius: 8px; /* rounds the edge of the button */
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer; /* changes the cursor to one hand when you hover the mouse */
+}
+
+#bNewMessage {
+    background-color: white; /* sets the background to white. */
+    border: 2px solid #333; /* it created a dark, solid border with 2 pixels */
+    color: #333; /* dark color for the text.o */
+    padding: 10px 20px; /* internal space for text */
+    border-radius: 8px; /* rounds the edge of the button */
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer; /* changes the cursor to one hand when you hover the mouse */
+}
+
+#bNewSectionColor {
+    background-color: white; /* sets the background to white. */
+    border: 2px solid #333; /* it created a dark, solid border with 2 pixels */
+    color: #333; /* dark color for the text.o */
+    padding: 10px 20px; /* internal space for text */
+    border-radius: 8px; /* rounds the edge of the button */
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer; /* changes the cursor to one hand when you hover the mouse */
+}
+
+nav a {
+    margin-left: 20px; /* space between links */
+    text-decoration: none; /* remove underline */
+    color: #9c7a1c; /* start color */
+    font-weight: 500; /* font weight */
+    transition: 0.3s; /* smooth animation in hover */
+}
+
+nav a:hover {
+    color: #ddd; /* white color when passing the link */
+}
+
+a: link{
+    text-decoration: none;
+    color: blue;
+
+}
+
+section {
+    padding: 50px 5%; /* internal spacing */
+}
+
+#values {
+    background: #c79c24;
+    opacity: 1;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#values h2 {
+    text-align: center;
+
+}
+
+#initial{
+    background: #ffffff;
+}
+
+#services{
+}
+
+#priceTable{
+    background: #ffffff;
+}
+
+#bShowElement {
+    background-color: white; /* sets the background to white. */
+    border: 2px solid #333; /* it created a dark, solid border with 2 pixels */
+    color: #333; /* dark color for the text.o */
+    padding: 10px 20px; /* internal space for text */
+    border-radius: 8px; /* rounds the edge of the button */
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer; /* changes the cursor to one hand when you hover the mouse */
+}
+
+#music{
+    background: #b3bd94;
+}
+
+#contact{
+    background: #9c7a1c
+}
+
+#empresa{
+    background-color: #665421;
+}
+
+#cFooter{
+    background: #ffffff;
+}

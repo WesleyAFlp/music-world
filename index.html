@@ -132,26 +132,39 @@
 				<h2> Formulário de contato </h2>
 				<h3> Preencha os campos para cadastrar-se </h3>
 				<form id="registrationForm">
-						<label for="cName"> Nome: </label><br>
-						<input type="text" id="cName" name="cName"><br>
-						<label for="cEmail"> E-mail: </label><br>
-						<input type="email" id="cEmail" name="cEmail"><br>
-						<label for="cPassword"> Senha: </label><br>
-						<input type="password" id="cPassword" name="cPassword"><br>
-						<label for="genero"> Gênero </label><br>
-
-						<label for="pNumber"> Telefone: </label><br>
-						<input type="tel" id="pNumber" name="pNumber"><br>
-						<label for="cidades"> Cidade </label><br>
-						<select id="cidades">
-							<option value="1"> Belo Horizonte </option>
-							<option value="2"> Contagem </option>
-							<option value="3"> Sabará </option>
-							<option value="4"> Betim </option>
-							<option value="5"> Lagoa Santa </option>
-						</select><br>
-						<label for="cMessage"> O que você deseja realizar conosco? </label><br>
-						<input type="textarea" id="cMessage" name="cMessage" rows="5" cols="15"><br>
+                    <label for="cName"> Nome: </label><br>
+                    <input type="text" id="cName" name="cName"><br>
+                    <label for="cEmail"> E-mail: </label><br>
+                    <input type="email" id="cEmail" name="cEmail"><br>
+                    <label for="cPassword"> Senha: </label><br>
+                    <input type="password" id="cPassword" name="cPassword"><br>
+                    <p>Gênero:</p>
+                    <form>
+                        <input type="radio" id="masculino" name="genero"></input>
+                        <label for="masculino">Masculino</label><br>
+                        <input type="radio" id="feminino" name="genero"></input>
+                        <label for="feminino">Feminino</label><br>
+                    </form>
+                    <label for="pNumber"> Telefone: </label><br>
+                    <input type="tel" id="pNumber" name="pNumber"><br>
+                    <p>Endereço:</p>
+                    <input type="text" id="cep" placeholder="Cep"><br>
+                    <input type="text" id="rua" placeholder="Rua"><br>
+                    <input type="text" id="bairro" placeholder="Bairro"><br>
+                    <input type="text" id="estado" placeholder="Estado"><br>
+                    <select id="cidade">
+                        <option value="0"> Cidade </option>
+                        <option value="1"> Belo Horizonte </option>
+                        <option value="2"> Contagem </option>
+                        <option value="3"> Sabará </option>
+                        <option value="4"> Betim </option>
+                        <option value="5"> Lagoa Santa </option>
+                        <option value="6"> Mariana </option>
+                        <option value="7"> Ribeirão das Neves </option>
+                        <option value="8"> Diamantina </option>
+                    </select><br>
+                    <label for="cMessage"> O que você deseja realizar conosco? </label><br>
+                    <input type="textarea" id="cMessage" name="cMessage" rows="5" cols="15"><br>
 				</form>
 				<br>
 				<button onclick="send"> Enviar </button>
